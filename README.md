@@ -1,5 +1,5 @@
 # api-store-net
-API store with .NET
+API store with .NET 8
 
 # Proyecto: Aplicación con Entity Framework y SQL Server
 
