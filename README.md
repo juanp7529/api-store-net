@@ -30,35 +30,37 @@ Retos puntuales
 - Un reto fue al final de la aplicación decidir que tipo de logs iba a usar en la aplicación, hice una implementación no muy profunda de logs, solo la realice en los controller, lo que hice fue llamar en el program.cs ya la funcionalidad que brinda .NET que es Logging e instancie esa variable en los controller para hacer su llamado en diferentes partes cuando se va a ejecutar la función, da un error o hay señales de un alerta. Por otra parte quise implementar un log más para manejo de errores en peticiones y cree un Middleware que dependiendo el error pues lo controla en la aplicación.
 
 Dejo el link a Drive a la carpeta para ver el video de la implementación de un cambio en vivo durante el desarrollo del back
-# https://drive.google.com/drive/folders/1SlClSMMwvhhT0IRCqzuWNI7RugHFFFNK?usp=sharing
+[Carpeta de video](https://drive.google.com/drive/folders/1SlClSMMwvhhT0IRCqzuWNI7RugHFFFNK?usp=sharing)
 
 Adjunto también exactamente lo que reciben los Post de cada API ya que sale la entidad completa en cada uno, para que sea más sencillo hacer las pruebas:
 
 Category:
-
+```bash
 {
   "name": "string"
 }
+```
 
 Product:
-
+```bash
 {
   "name": "string",
   "price": 0,
   "categoryId": 0
 }
-
+```
 User:
-
+```bash
 {
   "name": "string",
   "email": "string"
 }
-
+```
 WishListItem:
-
+```bash
 {
   "id": 0,
   "productId": 0,
   "userId": 0
 }
+```
