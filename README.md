@@ -4,7 +4,7 @@ API store with .NET 8
 # Proyecto: Aplicación con Entity Framework y SQL Server
 
 Se adjunta el código fuente de la aplicación completa.
-
+Abrir el proyecto buscando el archivo product-api.sln
 El proyecto usa **Entity Framework**, **SQL Server** y las herramientas proporcionadas por Entity Framework. Una vez verificadas que estas herramientas estén instaladas, puedes correr las migraciones. Si es necesario, elimina todas las migraciones existentes en la carpeta `Migrations` y ejecuta los siguientes comandos:
 
 ```bash
