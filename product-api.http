@@ -1,0 +1,26 @@
+@product-api_HostAddress = http://localhost:5003
+@product_api_HostAddress = http://localhost:5003
+@product_api_HostAddress_2 = https://localhost:7264
+
+GET {{product_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+GET {{product_api_HostAddress}}/api/category
+
+###
+
+POST {{product_api_HostAddress}}/api/category
+Content-Type: application/json
+
+{
+  "name": "Cocina"
+}
+
+###
+
+GET {{product_api_HostAddress}}/api/product
+
+###
