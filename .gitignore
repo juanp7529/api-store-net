@@ -1,0 +1,18 @@
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+
+bin/
+obj/
+
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.log
